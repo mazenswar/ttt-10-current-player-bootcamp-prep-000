@@ -5,9 +5,9 @@ def turn_count(board)
   board.each do |play|
     if play == "x" || play == "o"
       count += 1
-      return count
     end  
   end
+  return count
 end
 
 def current_player(board)
