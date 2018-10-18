@@ -6,6 +6,7 @@ def turn_count(board)
     if play == "x" || play == "o"
       count += 1
       return count
+    end  
   end
 end
 
